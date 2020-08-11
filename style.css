@@ -1,0 +1,49 @@
+.wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.Quiz
+{
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-rows: 60px auto;
+}
+.header
+{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-around;
+
+}
+.body
+{
+    background-color: lightgreen;
+    padding: 50px;
+}
+
+.option
+{
+    list-style-type: none;
+    background-color: lightsalmon;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+}
+
+.button
+{
+    background-color: lightsalmon;
+    color: wheat;
+    padding: 15px 20px;
+}
+
+.active
+{
+    background-color: red;
+    color:palegreen;
+}
